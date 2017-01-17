@@ -1,0 +1,677 @@
+html, body {
+	overflow-x: hidden;
+}
+
+/* ========fonts======== */
+	@font-face {
+	    font-family: 'UbuntuR';
+	    src: url('fonts/UbuntuR.eot');
+	    src: url('fonts/UbuntuR.eot') format('embedded-opentype'),
+	         url('fonts/UbuntuR.woff2') format('woff2'),
+	         url('fonts/UbuntuR.woff') format('woff'),
+	         url('fonts/UbuntuR.ttf') format('truetype'),
+	         url('fonts/UbuntuR.svg#UbuntuR') format('svg');
+	}
+
+	@font-face {
+	    font-family: 'UbuntuB';
+	    src: url('fonts/UbuntuB.eot');
+	    src: url('fonts/UbuntuB.eot') format('embedded-opentype'),
+	         url('fonts/UbuntuB.woff2') format('woff2'),
+	         url('fonts/UbuntuB.woff') format('woff'),
+	         url('fonts/UbuntuB.ttf') format('truetype'),
+	         url('fonts/UbuntuB.svg#UbuntuB') format('svg');
+	}
+
+	@font-face {
+	    font-family: 'UbuntuM';
+	    src: url('fonts/UbuntuM.eot');
+	    src: url('fonts/UbuntuM.eot') format('embedded-opentype'),
+	         url('fonts/UbuntuM.woff2') format('woff2'),
+	         url('fonts/UbuntuM.woff') format('woff'),
+	         url('fonts/UbuntuM.ttf') format('truetype'),
+	         url('fonts/UbuntuM.svg#UbuntuM') format('svg');
+	}
+/* ========fonts======== */
+
+/* ========main section======== */
+	section#main {
+		height: 100%;
+		background: url(../img/main-bg.jpg) no-repeat center center;
+		padding-top: 20px;
+		background-size: cover;
+	}
+
+	#logo {
+		max-height: 141px;
+	}
+	.phone h3 {
+		color: #fff;
+		font-family: 'UbuntuM';
+		text-decoration: none;
+	}
+
+	.phone a {
+		text-decoration: none;
+	}
+
+	.phone p {
+		color: #fff;
+		font-family: 'UbuntuR';
+	}
+
+	.social img {
+		width: 30px;
+	}
+
+	.social {
+		padding-top: 5px;
+		padding-left: 8px;
+	}
+
+	.header-text h1 {
+		color: #ffffff;
+		font-family: 'UbuntuB';
+		text-transform: uppercase;
+		margin-top: 9%;
+		margin-bottom: 9%;
+	}
+
+	.header-form h2 {
+		font-family: 'UbuntuM';
+		color: #a60436;
+		margin-bottom: 2%;
+	}
+
+	.main-form {
+		background-color: rgba(255,255,255,0.47);
+		padding-bottom: 30px;
+		margin-bottom: 3%;
+	}
+
+	.main-form input {
+		width: 80%;
+		padding: 15px;
+		border-radius: 5px;
+		font-family: 'UbuntuM';
+		border: none;
+	}
+
+	.main-btn {
+		font-family: 'UbuntuM';
+		background-color: #a60436;
+		border: none;
+		border-bottom: 3px solid #7d1233;
+		border-radius: 5px;
+		color: #fff;
+		height: 50px;
+		padding: 15px;
+		width: 80%;
+	}
+
+	.main-btn:hover {
+		background-color: #fff;
+		color: #a60436;
+		border: 2px solid #a60436;
+	}
+/* ========main section end======== */
+
+/* ========Eggs======== */
+
+	section#eggs {
+		padding-top: 1%;
+		padding-bottom: 1%;
+	}
+
+	.header-eggs {
+		color: #323232;
+		font-family: 'UbuntuB';
+	}
+
+	.eggs-services img {
+		width: 100px;
+	}
+
+	.eggs-services {
+		padding-top: 3%;
+	}
+
+	.eggs-services h4 {
+		font-family: 'UbuntuM';
+	}
+/* ========Eggs End======== */
+
+/* ========Price Section======== */
+
+	.price-header h2 {
+		font-family: 'UbuntuB';
+	}
+
+	.price-header {
+		margin-bottom: 2%;
+	}
+
+	.items-price img {
+		width: 95%;
+
+	}
+
+	.items-price {
+		border: 2px solid #a60436;
+		border-radius: 5px;
+		padding-bottom: 20px;
+		min-height: 400px;
+	}
+
+	.items-price h3 {
+		font-family: 'UbuntuB';
+		margin: 3px;
+		font-size: 20px;
+	}
+
+	.items-price h4 {
+		font-family: 'UbuntuM';
+
+	}
+
+	.items-price li {
+		font-family: 'UbuntuM';
+	}
+
+	section#price {
+		padding-bottom: 2%;
+		border-top: 3px solid #a60436;
+	}
+
+	.items-price button {
+		font-family: 'UbuntuM';
+		background-color: #a60436;
+		color: #fff;
+		border: none;
+		border-bottom: 3px solid #7d1233;
+		padding: 0 20%;
+		height: 40px;
+		border-radius: 5px;
+	}
+
+	.items-price button:hover {
+		background-color: #fff;
+		border: 2px solid #a60436;
+		color: #a60436;
+	}
+/* ========Price Section End========*/
+
+/* ========Feedback Footer======== */
+
+	section#feedback-footer {
+		margin-top: 1%;
+		padding-bottom: 3%;
+	}
+
+	.feedback-form input{
+		height: 50px;
+		border: 2px solid #a60436;
+		padding-left: 15px;
+		color: #a60436;
+		border-radius: 5px;
+		font-family: 'UbuntuM';
+		width: 80%;
+	}
+
+	.feedback-form h2 {
+		font-family: 'UbuntuB';
+		margin-bottom: 20px;
+	}
+
+	.form-footer {
+		padding-left: 10%;
+		padding-right: 10%;
+	}
+
+	.footer-btn {
+		font-family: 'UbuntuM';
+		background-color: #a60436;
+		border: none;
+		border-bottom: 3px solid #7d1233;
+		border-radius: 5px;
+		color: #fff;
+		height: 50px;
+		padding: 15px;
+		width: 80%;
+	}
+
+	.footer-btn:hover {
+		background-color: #fff;
+		color: #a60436;
+		border: 2px solid #a60436;
+	}
+/* ========Feedback Footer End========*/
+
+/* ========Footer Site======== */
+	section#footer-site {
+		margin-top: 10px;
+		background-color: #7d1233;
+		padding: 10px 0;
+	}
+	.img-footer img {
+		margin: 2px;
+		max-height: 25px;
+		-moz-transition: all 0.5s ease-out;
+		-o-transition: all 0.5s ease-out;
+		-webkit-transition: all 0.5s ease-out;
+	}
+	.img-footer img:hover {
+		-webkit-transform: scale(1.8);
+		-moz-transform: scale(1.8);
+		-o-transform: scale(1.8);
+	}
+
+	.logo-footer img {
+		max-height: 100px;
+	}
+	.logo-footer p {
+		color: #fff;
+		font-family: 'UbuntuM';
+		margin-top: 4px;
+	}
+	.footer-col h2 {
+		font-family: 'UbuntuB';
+		color: #fff;
+	}
+	.footer-col p {
+		font-family: 'UbuntuM';
+		color: #fff;
+	}
+	.footer-col a {
+		text-decoration: none;
+		color: #2c94f1;
+		font-family: 'UbuntuM';
+	}
+/* ========Footer Site End========*/
+
+/* ========Modal======== */
+	.modal {
+		top: 25%;
+	}
+
+	#myModalLabel {
+		font-family: 'UbuntuB';
+	}
+	#myModalLabel2 {
+		font-family: 'UbuntuB';
+	}
+	.modal-input input {
+		width: 60%;
+		margin-top: 12px;
+		margin-bottom: 12px;
+		border: 2px solid #a60436;
+		height: 40px;
+		padding: 10px;
+		font-family: 'UbuntuM';
+		color: #a60436;
+		border-radius: 5px;
+	}
+	button.send-phone {
+		background-color: #a60436;
+		border: 2px solid #a60436;
+		font-family: 'UbuntuM';
+	}
+	button.send-phone:hover {
+		background-color: #fff;
+		color: #a60436;
+		border: 2px solid #a60436;
+		font-family: 'UbuntuM';
+	}
+	button.send-phone:focus:active {
+		background-color: #fff;
+		color: #a60436;
+		border: 2px solid #a60436;
+		font-family: 'UbuntuM';
+	}
+	button.send-phone:active {
+		background-color: #fff;
+		color: #a60436;
+		border: 2px solid #a60436;
+		font-family: 'UbuntuM';
+	}
+	button.send-phone:focus {
+		background-color: #fff;
+		color: #a60436;
+		border: 2px solid #a60436;
+		font-family: 'UbuntuM';
+	}
+/* ========Modal End======== */
+
+/* ========Slider======== */
+	section#feedback {
+		padding-bottom: 2%;
+	}
+	.item {
+        background: #fff;    
+        text-align: center;
+        height: 350px !important;
+    }
+    .item h2 {
+    	font-family: 'UbuntuM';
+    	font-size: 20px;
+    }
+    .item p {
+    	font-family: 'UbuntuM';
+    }
+    .carousel {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .header-feedback h2 {
+    	font-family: 'UbuntuB';
+    }
+    .carousel-control.left {
+    	background-image: none;
+    }
+    .carousel-control.right {
+    	background-image: none;
+    }
+    .carousel-control {
+    	color: #a60436;
+    }
+    .carousel-control:hover {
+    	color: #630c27;
+    }
+    .carousel-control:focus {
+    	color: #a60436;
+    }
+	.img-avatar {
+		margin: 0 auto;
+		height: 150px;
+		-moz-transition: all 2s ease-out;
+		-o-transition: all 2s ease-out;
+		-webkit-transition: all 2s ease-out;
+	}
+	.img-avatar:hover {
+		margin: 0 auto;
+		height: 150px;
+		-webkit-transform: scale(1.3);
+		-moz-transform: scale(1.3);
+		-o-transform: scale(1.3);
+	}
+	.fotorama {
+		margin: 0 5px;
+	}
+/* ========Slider End======== */
+
+/* ========Responsiv======== */
+
+	@media(min-width: 0px) and (max-width: 320px) {
+		#logo {
+			width: 100px;
+		}
+		.social img {
+			width: 18px;
+		}
+		.logo-revizor img {
+			width: 100px;
+		}
+		.phone {
+			text-align: center;
+		}
+		.logo-company {
+			text-align: center;
+		}
+		.header-text h1 {
+			font-size: 20px;
+		}
+		.header-form h2 {
+			font-size: 24px;
+		}
+		.main-form {
+			margin-left: 4px;
+			margin-right: 4px;
+		}
+		.main-form input {
+			margin-bottom: 4px;
+		}
+		section#main {
+			padding-bottom: 15px;
+		}
+		.header-eggs h2 {
+			font-size: 24px;
+		}
+		.eggs-services img {
+			width: 80px;
+			height: 70px;
+		}
+		.eggs-services h4 {
+			font-size: 16px;
+		}
+		.price-header h2 {
+			font-size: 20px;
+		}
+		.items-price h3 {
+			font-size: 18px;
+		}
+		.items-price {
+			margin-bottom: 4px;
+		}
+		.feedback-form h2 {
+			font-size: 22px;
+		}
+		.form-footer input {
+			margin-bottom: 4px;
+			width: 100%;
+		}
+		.footer-btn {
+			width: 100%;
+		}
+		.img-footer {
+			display: inline-block;
+			position: relative; left: 40%; top: 10%;
+		}		
+	}
+	@media(min-width: 321px) and (max-width: 480px) {
+		#logo {
+			width: 150px;
+		}
+		.social img {
+			width: 22px;
+		}
+		.logo-revizor img {
+			width: 150px;
+		}
+		.phone {
+			text-align: center;
+		}
+		.logo-company {
+			text-align: center;
+		}
+		.header-text h1 {
+			font-size: 28px;
+		}
+		.header-form h2 {
+			font-size: 22px;
+		}
+		.main-form {
+			margin-left: 6px;
+			margin-right: 6px;
+		}
+		.main-form input {
+			margin-bottom: 4px;
+		}
+		section#main {
+			padding-bottom: 15px;
+		}
+		.header-eggs h2 {
+			font-size: 24px;
+		}
+		.eggs-services img {
+			width: 90px;
+			height: 75px;
+		}
+		.eggs-services h4 {
+			font-size: 16px;
+		}
+		.price-header h2 {
+			font-size: 20px;
+		}
+		.items-price h3 {
+			font-size: 18px;
+		}
+		.items-price {
+			margin-bottom: 4px;
+		}
+		.feedback-form h2 {
+			font-size: 22px;
+		}
+		.form-footer input {
+			margin-bottom: 4px;
+			width: 100%;
+		}
+		.footer-btn {
+			width: 100%;
+		}
+		.img-footer {
+			display: inline-block;
+			position: relative; left: 40%; top: 10%;
+		}	
+	}
+	@media(min-width: 481px) and (max-width: 768px) {
+		#logo {
+			max-height: 141px;
+		}
+		.social img {
+			width: 30px;
+		}
+		.logo-revizor img {
+			max-height: 141px;
+		}
+		.phone {
+			text-align: center;
+		}
+		.logo-company {
+			text-align: center;
+		}
+		.header-text h1 {
+			font-size: 28px;
+		}
+		.header-form h2 {
+			font-size: 24px;
+		}
+		.main-form {
+			margin-left: 8px;
+			margin-right: 8px;
+			padding-left: 8px;
+			padding-right: 8px;
+		}
+		.main-btn {
+			width: 100%;
+
+		}
+		.main-form input {
+			margin-bottom: 4px;
+			width: 100%;
+		}
+		section#main {
+			padding-bottom: 15px;
+		}
+		.header-eggs h2 {
+			font-size: 24px;
+		}
+		.eggs-services img {
+			width: 90px;
+			height: 80px;
+		}
+		.eggs-services h4 {
+			font-size: 16px;
+		}
+		.price-header h2 {
+			font-size: 20px;
+		}
+		.items-price h3 {
+			font-size: 26px;
+		}
+		.items-price {
+			margin-bottom: 4px;
+		}
+		.feedback-form h2 {
+			font-size: 22px;
+		}
+		.form-footer input {
+			margin-bottom: 4px;
+			width: 100%;
+		}
+		.footer-btn {
+			width: 100%;
+			padding: 1px;
+		}
+		section#feedback-footer {
+			margin-bottom: 8px;
+		}
+	}
+	@media(min-width: 769px) and (max-width: 992px) {
+		#logo {
+			max-height: 141px;
+		}
+		.social img {
+			width: 30px;
+		}
+		.logo-revizor img {
+			max-height: 141px;
+		}
+		.header-form h2 {
+			font-size: 24px;
+		}
+		.main-form {
+			margin-left: 8px;
+			margin-right: 8px;
+			padding-left: 8px;
+			padding-right: 8px;
+		}
+		.main-btn {
+			width: 100%;
+		}
+		.main-form input {
+			margin-bottom: 4px;
+			width: 100%;
+		}
+		section#main {
+			padding-bottom: 15px;
+		}
+		.header-eggs h2 {
+			font-size: 24px;
+		}
+		.eggs-services img {
+			width: 90px;
+			height: 80px;
+		}
+		.eggs-services h4 {
+			font-size: 16px;
+		}
+		.price-header h2 {
+			font-size: 20px;
+		}
+		.items-price h3 {
+			font-size: 26px;
+		}
+		.items-price {
+			margin-bottom: 4px;
+		}
+		.feedback-form h2 {
+			font-size: 22px;
+		}
+		.form-footer input {
+			margin-bottom: 4px;
+			width: 100%;
+		}
+		.footer-btn {
+			width: 100%;
+			padding: 1px;
+		}
+		section#feedback-footer {
+			margin-bottom: 8px;
+		}
+	}
+	@media(min-width: 993px) and (max-width: 1200px) {
+		.items-card-1200 h3 {
+			margin-bottom: 26px;			
+		}
+	}
+/* ========Responsiv End======== */
